@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+"""
 s module contains an algorithm that resolves the N-Queen puzzle
 using backtracking
 
