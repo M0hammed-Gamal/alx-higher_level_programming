@@ -1,5 +1,4 @@
 #!/usr/bin/node
-// imports array and map to another array
-const list = require('./100-data').list;
-console.log(list);
-console.log(list.map((item, index) => item * index));
+const array = require('./100-data').list;
+console.log(array);
+console.log(array.map(function (x, i) { return (x * i); }));
